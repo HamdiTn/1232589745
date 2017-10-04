@@ -34,7 +34,12 @@ class Events
      * @ORM\Column(name="description", type="string", length=255, nullable=true)
      */
     private $description;
-
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="category", type="string", length=255, nullable=true)
+     */
+    private $category;
 
     /**
      * Get id
