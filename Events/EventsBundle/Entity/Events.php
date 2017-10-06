@@ -40,7 +40,12 @@ class Events
      * @ORM\Column(name="category", type="string", length=255, nullable=true)
      */
     private $category;
-
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_start", type="datetime", length=255, nullable=true)
+     */
+    private $date_start;
     /**
      * Get id
      *
